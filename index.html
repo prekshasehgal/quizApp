@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="overlay">
+            <p>OOPS You have not Selected Any Options.</p>
+        <p>Please Select to Proceed further</p>
+        <button class="okay">OK</button>
+
+        </div>
+        <div id="box">
+            
+            <div class="questionsContent">
+            <p id="queBox">This is a Dummy Question</p>
+
+
+            <div class="row">
+                <input type="radio" value="a" id="option1" name="option" class="options">
+                <label for="option1" id="optiona">Option 1</label>
+            </div>
+
+            <div class="row">
+                <input type="radio" value="b" id="option2" name="option" class="options">
+                <label for="option2" id="optionb">Option 2</label>
+            </div>
+
+            <div class="row">
+                <input type="radio" value="c" id="option3" name="option" class="options">
+                <label for="option3" id="optionc">Option 3</label>
+            </div>
+
+            <div class="row">
+                <input type="radio" value="c" id="option4" name="option" class="options">
+                <label for="option4" id="optiond">Option 4</label>
+            </div>
+
+
+            <button class="btn" onclick="animation(event)">Submit</button>
+             </div>
+
+             <div id="Result"></div>
+
+             <div class="endContent">
+                
+             </div>
+
+        
+        </div>
+
+        
+    </div>
+
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
